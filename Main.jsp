@@ -24,6 +24,16 @@ public class Main{
                 persona.setApellidoPaterno(apellidoPaterno);
                 persona.setApellidoMaterno(apellidoMaterno);
                 System.out.println(persona.toString());
+
+
+
+		Persona  personaB = new Persona();
+                System.out.println("Ingrese datos");
+                System.out.println("Ingrese Run");
+                personaB.setRun(sc.nextLine());
+                System.out.println("Ingrese Nombres");
+                personaB.setNombres(sc.nextLine());
+                System.out.println(personaB.toString());
         }
 
 }
